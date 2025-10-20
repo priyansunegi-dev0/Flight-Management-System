@@ -19,14 +19,10 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin, onShowRegistratio
 
   const demoAccounts = [
     { id: 'admin', password: 'admin', role: 'Administrator', icon: Shield },
-    { id: 'P001', password: 'pass123', role: 'Regular Passenger', icon: User },
-    { id: 'P002', password: 'pass123', role: 'VIP Passenger', icon: Users },
-    { id: 'P003', password: 'pass123', role: 'Regular Passenger', icon: User },
-    { id: 'P004', password: 'pass123', role: 'VIP Passenger', icon: Users },
-    { id: 'johnsmith001', password: 'P005', role: 'Auto-Generated Passenger (Username)', icon: User },
-    { id: 'P005', password: 'P005', role: 'Auto-Generated Passenger (ID)', icon: User },
-    { id: 'sarahj002', password: 'P006', role: 'Auto-Generated VIP (Username)', icon: Users },
-    { id: 'P006', password: 'P006', role: 'Auto-Generated VIP (ID)', icon: Users },
+    { id: 'P001', password: 'priyansu', role: 'Regular Passenger', icon: User },
+    { id: 'P002', password: 'neeraj', role: 'VIP Passenger', icon: Users },
+    { id: 'P003', password: 'ayush', role: 'Regular Passenger', icon: User },
+    { id: 'P004', password: 'rahul', role: 'VIP Passenger', icon: Users },
   ];
 
   const quickLogin = (demoUserId: string, demoPassword: string) => {

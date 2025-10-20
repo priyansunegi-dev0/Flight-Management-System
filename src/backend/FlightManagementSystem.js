@@ -92,36 +92,36 @@ export class FlightManagementSystem {
     // Regular passenger accounts
     this.users.put('P001', {
       id: 'P001',
-      password: 'pass123',
+      password: 'priyansu',
       role: 'passenger',
-      name: 'John Smith',
-      email: 'john.smith@email.com',
+      name: 'Priyansu Negi',
+      email: 'priyansunegi@email.com',
       isVIP: false
     });
 
     this.users.put('P002', {
       id: 'P002',
-      password: 'pass123',
+      password: 'neeraj',
       role: 'passenger',
-      name: 'Sarah Johnson',
-      email: 'sarah.johnson@email.com',
+      name: 'Neeraj Bisht',
+      email: 'neerajbisht@email.com',
       isVIP: true
     });
 
     this.users.put('P003', {
       id: 'P003',
-      password: 'pass123',
+      password: 'ayush',
       role: 'passenger',
-      name: 'Mike Wilson',
+      name: 'Ayush Rawat',
       email: 'mike.wilson@email.com',
       isVIP: false
     });
 
     this.users.put('P004', {
       id: 'P004',
-      password: 'pass123',
+      password: 'rahul',
       role: 'passenger',
-      name: 'Emma Davis',
+      name: 'Rahul',
       email: 'emma.davis@email.com',
       isVIP: true
     });
@@ -140,12 +140,12 @@ export class FlightManagementSystem {
       {
         id: 'FL001',
         flightNumber: 'AA101',
-        origin: 'New York (JFK)',
-        destination: 'Los Angeles (LAX)',
+        origin: 'Delhi (DEL)',
+        destination: 'Mumbai (BOM)',
         departureTime: '2024-01-15T08:00:00',
         arrivalTime: '2024-01-15T11:30:00',
         status: 'On Time',
-        aircraft: 'Boeing 737-800',
+        aircraft: 'Airbus A320neo',
         capacity: 180,
         bookedSeats: 4,
         gate: 'A12'
@@ -153,8 +153,8 @@ export class FlightManagementSystem {
       {
         id: 'FL002',
         flightNumber: 'UA205',
-        origin: 'Chicago (ORD)',
-        destination: 'Miami (MIA)',
+        origin: 'Bengaluru (BLR)',
+        destination: 'Kolkata (CCU)',
         departureTime: '2024-01-15T14:30:00',
         arrivalTime: '2024-01-15T18:45:00',
         status: 'Boarding',
@@ -180,9 +180,9 @@ export class FlightManagementSystem {
     const passengers = [
       {
         id: 'P001',
-        name: 'John Smith',
-        email: 'john.smith@email.com',
-        phone: '+1-555-0101',
+        name: 'Priyansu Negi',
+        email: 'priyansunegi@email.com',
+        phone: '+91-85645-01801',
         flightId: 'FL001',
         seatNumber: '12A',
         isVIP: false,
@@ -192,9 +192,9 @@ export class FlightManagementSystem {
       },
       {
         id: 'P002',
-        name: 'Sarah Johnson',
-        email: 'sarah.johnson@email.com',
-        phone: '+1-555-0102',
+        name: 'Neeraj Bisht',
+        email: 'neerajbisht@email.com',
+        phone: '+91-55555-01902',
         flightId: 'FL001',
         seatNumber: '3B',
         isVIP: true,
@@ -204,9 +204,9 @@ export class FlightManagementSystem {
       },
       {
         id: 'P003',
-        name: 'Mike Wilson',
-        email: 'mike.wilson@email.com',
-        phone: '+1-555-0103',
+        name: 'Ayush Rawat',
+        email: 'ayushrawat@email.com',
+        phone: '+91-55685-01043',
         flightId: 'FL001',
         seatNumber: '15C',
         isVIP: false,
@@ -216,9 +216,9 @@ export class FlightManagementSystem {
       },
       {
         id: 'P004',
-        name: 'Emma Davis',
-        email: 'emma.davis@email.com',
-        phone: '+1-555-0104',
+        name: 'Rahul',
+        email: 'rahul@email.com',
+        phone: '+91-52355-01404',
         flightId: 'FL001',
         seatNumber: '2A',
         isVIP: true,
