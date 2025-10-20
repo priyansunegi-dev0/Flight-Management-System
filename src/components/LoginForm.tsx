@@ -123,7 +123,6 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin, onShowRegistratio
                 <p className="text-blue-200 text-sm mb-2">Click any account to login instantly:</p>
                 <div className="text-xs text-blue-300 bg-blue-800/30 rounded p-2">
                   <p className="font-medium mb-1">🔐 Authentication System Features:</p>
-                  <p>• Auto-generated credentials use Passenger ID as initial password</p>
                   <p>• Login with either Username or Passenger ID</p>
                   <p>• VIP passengers get enhanced dashboard privileges</p>
                 </div>
@@ -156,11 +155,9 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin, onShowRegistratio
         {/* Footer */}
         <div className="text-center mt-8">
           <p className="text-blue-200 text-sm">
-            🎓 Educational System: Stack (LIFO Luggage), Queue (FIFO Boarding), LinkedList (Missed Items), HashMap (O(1) Lookups)
+            🎓 Data Structures Covered : Stack (LIFO Luggage), Queue (FIFO Boarding), LinkedList (Missed Items), HashMap (O(1) Lookups)
           </p>
-          <p className="text-blue-300 text-xs mt-2">
-            🔐 Auto-Generated Credentials: Passenger ID serves as both username and password for new registrations
-          </p>
+          
         </div>
       </div>
     </div>
